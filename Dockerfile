@@ -25,7 +25,7 @@ RUN pip install --no-cache-dir torch==2.5.0 --index-url https://download.pytorch
 # ============================================================
 COPY app/ ./app/
 COPY models/ ./models/
-
+COPY static/ ./static/ 
 # ============================================================
 # Expose the port the API will run on
 # ============================================================
